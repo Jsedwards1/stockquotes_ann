@@ -1,6 +1,6 @@
 # ann.py #
 
-This artificial neural network features a standard neural network developed without the use of any machine learning libraries. This was an intional decision as I wanted to understand from first principles the mathematics and programming behind the processes involved (feedforward methods, backpropagation, training/testing etc.)
+This artificial neural network features a standard neural network developed without the use of any machine learning libraries. This was an intional decision as I wanted to understand from first principles the mathematics and programming behind the processes involved (feedforward, backpropagation, training/testing etc.)
 
 I have to give thanks to Michael Nielsen and his excellent walkthrough of [Using neural nets to recognize handwritten digits](http://neuralnetworksanddeeplearning.com/chap1.html). His code provided an excellent foundation and a great walkthrough on implementing vector calculus in python.
 
