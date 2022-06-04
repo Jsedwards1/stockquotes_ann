@@ -11,7 +11,7 @@ training_data = data[0:split_index]
 test_data = data[split_index:-1]
 
 net = ann.Network([6, 4, 3])
-net.SGD(training_data, 5, 15, 5)
+net.SGD(training_data, 5, 15, 0.1)
 
 
 """ Outputs the closing price for day n+1 given x - the input data for day n as a numpy array and cp - the closing price for day n
