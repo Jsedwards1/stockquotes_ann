@@ -24,17 +24,3 @@ def predict_price(x, cp):
         return cp - prediction[1][0]
     else:
         return cp + prediction[1][0]
-
-def get_prediction(x):
-    return net.feedforward(x)
-    
-pred_sum = 0
-preds = []
-for i in range(0, 10):
-    pred_sum = pred_sum + get_prediction(data[i][0])[2][0]
-    preds.append(get_prediction(data[i][0])[2][0])
-    avg = pred_sum / 10
-    stdDev = np.std(preds)
-
-print(f"Average: {avg}")
-print(f"StdDev: {stdDev}")
