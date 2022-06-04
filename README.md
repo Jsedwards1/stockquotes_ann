@@ -48,5 +48,3 @@ The operations neccessary for training and making predictions are defined as met
 
 ## stock_net.py ##
 stock_net.py implements a model with one hidden layer that contains 4 nodes - the design of the hiddel layers was aritrarily selected. It then adjusts the network's weights and biases using the training data and a learning rate of 0.1. Finally, the predict_price function is designed to be called once the network has been trained. It takes two inputs: an input vector with the 6 descriptors of a stock on a given day, and the closing price for that day and converts the 3 element output array into an actual predicted price. This is simply a utility function that helps to make sense of the predictions made by a trained network.
-
-## Performance ##
