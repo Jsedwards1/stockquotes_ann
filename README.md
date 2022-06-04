@@ -8,7 +8,7 @@ I have to give thanks to Michael Nielsen and his excellent walkthrough of [Using
 ## readcsv.py ##
 A read function for reading stock data from a csv is first imported from readcsv.py. The function takes as an argument the name of the csv file in the 'data/' directory that is to be read and returns an array of tuples (x, y) where x is the input vector and y is the output vector. 
 
-The input vector consists of 6 elements which describe the stock on a given day. The descriptors were selected in accordance with those used in research conducted by [Mehar Vijha, Deeksha Chandolab, Vinay Anand Tikkiwalb and Arun Kumar (2020)](https://www.sciencedirect.com/science/article/pii/S1877050920307924) which were successfully guided an ANN in making fairly accurate predictions. These inputes are:
+The input vector consists of 6 elements which describe the stock on a given day. The descriptors were selected in accordance with those used in research conducted by [Mehar Vijha, Deeksha Chandolab, Vinay Anand Tikkiwalb and Arun Kumar (2020)](https://www.sciencedirect.com/science/article/pii/S1877050920307924) which successfully guided an ANN in making fairly accurate predictions. These inputes are:
 
 * high - low 
 * open - close
